@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "import/no-dynamic-require": 0,
+        "no-param-reassign": ["error", { "props": false }],
+        "no-console": 0,
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    }
+}
